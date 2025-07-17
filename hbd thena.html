@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday Thena</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand&display=swap');
+
+    body {
+      margin: 0;
+      padding: 2rem;
+      background: #ffe4ec; /* Light pink */
+      font-family: 'Quicksand', sans-serif;
+      color: #4b2e2e;
+      line-height: 1.8;
+      overflow-x: hidden;
+      position: relative;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background: #fff8ef;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      padding: 3rem;
+      position: relative;
+      z-index: 2;
+    }
+
+    h1 {
+      font-family: 'Pacifico', cursive;
+      font-size: 2.5rem;
+      text-align: center;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      color: #e96f92;
+    }
+
+    p {
+      margin-bottom: 1.2rem;
+      font-size: 1.05rem;
+    }
+
+    /* Floating Hearts */
+    .hearts {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      overflow: hidden;
+      z-index: 0;
+    }
+
+    .heart {
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      background: pink;
+      transform: rotate(45deg);
+      animation: float 10s linear infinite;
+      opacity: 0.7;
+    }
+
+    .heart::before,
+    .heart::after {
+      content: '';
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      background: pink;
+      border-radius: 50%;
+    }
+
+    .heart::before {
+      top: -7.5px;
+      left: 0;
+    }
+
+    .heart::after {
+      left: -7.5px;
+      top: 0;
+    }
+
+    @keyframes float {
+      0% {
+        transform: translateY(100vh) rotate(45deg);
+        opacity: 1;
+      }
+      100% {
+        transform: translateY(-10vh) rotate(45deg);
+        opacity: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Floating Hearts Background -->
+  <div class="hearts">
+    <script>
+      for (let i = 0; i < 40; i++) {
+        const heart = document.createElement('div');
+        heart.className = 'heart';
+        heart.style.left = Math.random() * 100 + 'vw';
+        heart.style.animationDuration = (5 + Math.random() * 5) + 's';
+        heart.style.animationDelay = (Math.random() * 5) + 's';
+        document.body.querySelector('.hearts').appendChild(heart);
+      }
+    </script>
+  </div>
+
+  
+  <div class="container">
+    <h1>To my dearest Thena</h1>
+    <p>Happy, happy birthday, Thena. I don’t even know how to begin this letter without tearing up a bit, because there’s just so much I want to say to you. But I’ll start with this</p>
+    <p>Thank you for being in my life, thank you for being you.</p>
+    <p>You are one of the most special people I’ve ever met, one of the brightest parts of my life. I don’t think you even realize how much of a light you are in my life, how comforting it feels to be around you, like I don’t have to pretend, filter, or hold back. With you, I can just be myself, and that’s something I’ll never take for granted. Our friendship is something I treasure more than you probably know, and I feel so lucky that I got to grow close to someone as genuinely kind, funny, and comforting as you.</p>
+    <p>I think about the moments we’ve shared, and I can’t help but smile or laugh hard. Like when you dropped your Chicken Joy in that haunted parking lot. That scene plays in my head in slow motion sometimes, and I swear it gets funnier every time. Or when we’d be in class, shamelessly laughing about sex ed questions or jokes and the most random things while the teacher was literally right there. To this day, I know they probably caught fragments of those convos but just pretended not to hear us. We had no shame, and I loved every second of it.</p>
+    <p>What I love most about our friendship is how easy it feels. I never feel judged around you. We can go from talking about the most unserious stuff to the deepest parts of our hearts without it ever feeling forced. I love hearing your stories. I love sharing mine. I love how we laugh, how we daydream, how we understand each other even without saying much.</p>
+    <p>9th grade was such a core memory for me, and you’re a huge reason why. Sitting beside you made that year so much better. I still thank Ms. Tapang in my heart for letting us be seatmates, because that one small decision made me treasure our friendship even more. I thought my earlier school years were good, but nothing compares to that time. You were the highlight of my year.</p>
+    <p>A few months before the school year ended, I started recording those small moments. And now I still watch those videos whenever I miss you. They never fail to make me laugh. Those videos are so precious to me, Thena. I promise I’ll show them to my future kids one day, and I wanna tell them that “This is the kind of friendship I hope you find too.” I wish I had recorded even more. I wish I had bottled up every laugh, every inside joke, every little moment that made that year so beautiful.</p>
+    <p>And I hope we get to sit together again this year. I want to make more memories with you. More videos. More random laughter over things no one else would understand. More of us. I also miss listening to music together, sharing AirPods and hiding them with our hair, and every time we’d listen to great songs we’d try to hold back, cause it’s too good.</p>
+    <p>You know me, I don’t always open up about what’s going on in my life. I stay quiet a lot. But every time I talked to you last year, things felt lighter, even if you didn’t realize it. Somehow, your presence made everything easier to carry. You never fail to do that, Thena. You are so loved, so deeply special, and I hope you always remember that.</p>
+    <p>I hope all our dreams come true. I hope one day we’ll be traveling the world together, tanning at the beach, going on a cruise, chasing sunsets, maybe even crying in a foreign city over something stupid and beautiful. I love dreaming with you. I hope those dreams come true. I want to grow with you, reach our goals, chase our passions, and cry and laugh over how far we’ve come. I really love dreaming with you because it makes the future feel exciting.</p>
+    <p>I can’t imagine a life where you’re not in it, like genuinely. I don’t want anything to change between us. I hope that years from now, when we both have kids, they’ll find a friendship like ours. I want them to grow up hearing about our stories, and we can tell them all about how we used to talk about them when we were just high school girls, thinking of baby names during break time. That thought alone makes me emotional because I really do hope we’re still side by side years from now, telling them the wild stories of our teenage years.</p>
+    <p>Also, we can tell them we used to cheat during ICT, and shamelessly copy homework while whispering nonsense that made us laugh until our stomachs hurt. Or when we kept nonstop sending each other edits of Nicholas Chavez and Cooper Koch, and we’d talk about the Menendez case like we were lawyers. I miss that era so much.</p>
+    <p>I’m gonna stop here because I’m crying so damn much already</p>
+    <p>Thank you for every single thing, Thena. For the loud moments, the quiet ones, the support, the honesty, and the laughter. You’re a once-in-a-lifetime friend. I love you so much, and I’m so lucky to have you.</p>
+    <p>On your birthday, I want you to remember how loved you are. Not just by me, but by every single person lucky enough to have crossed paths with you. You make life better just by being in it.</p>
+    <p><strong>Happy Birthday, Athena. I love you endlessly.</strong></p>
+  </div>
+</body>
+</html>
